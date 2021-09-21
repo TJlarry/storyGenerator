@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="lanre Allioke">
+  <meta name="description" content= "Story Generator Form">
+  <title> Story Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form name="setupForm" style="display: block">
+    <h1> Story Generator </h1>
+    <p> Enter the appropraite values in all the text boxes. Then click the Done button to generate a story with your entered values pluged into it.</p>
+
+    <label for="inputA"> noun:</label>
+    <input type="text" id="inputA" value="" class="size"><br>
+    <label for="inputB"> past tense verb:</label>
+    <input type="text" id="inputB" value="" class="size"><br>
+    <label for="inputC"> adjective:</label>
+    <input type="text" id="inputC" value="" class="size"><br>
+    <label for="inputD"> past tense verb:</label>
+    <input type="text"  id="inputD" value="" class="size"  ><br>
+    <label for="inputE"> adjective:</label>
+    <input type="text" id="inputE" value="" class="size"><br><br>
+
+    <button type="button" onclick="doneHandler()"> Done </button> &nbsp <button type="reset"> Reset</button>
+  </form>
+
+  <form name="storyForm"  style="display: none">
+    <p class="container">It was a dark and stormy night. Suddenly a shot rang out ! A <span class="word"></span> slammed. The maid <span class="word"> </span>. Suddenly, a <span class="word"> </span> ship appeared on the horizon!. While million of people <span class="word"> </span>, the king lived in luxury.Meanwhile,on a <span class="word"> </span> farm in Kansas. a boy was  growing up.</p>
+
+    <p>The End</p>
+    By Charles M. Schulz's<br><br>
+    <input type="button" value="Return" onclick=" returnHandler()">
+  </form>
+
+  <script src="main.js"> </script>
+</body>
+</html>

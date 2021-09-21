@@ -1,0 +1,21 @@
+label {
+  display: inline-block;
+  width:125px;
+  text-align: right
+}
+.container{
+  color: black;
+}
+.word {color:#c00000 }
+
+body {
+  font-size: 20px;
+  padding: 5px;
+  background-color:lightblue;
+}
+
+.size{
+  width: 200px;
+  height: 25px
+
+}
